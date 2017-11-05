@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="radio_boton">6dp</dimen>
+
+    <dimen name="margen">12dp</dimen>
+    <dimen name="padding">6dp</dimen>
+    <dimen name="texto">18sp</dimen>
+
+    <dimen name="alto_min_boton">36dp</dimen>
+    <dimen name="texto_boton">24sp</dimen>
+
+    <dimen name="mas_margen_para_boton">60sp</dimen>
+
+
+
+</resources>

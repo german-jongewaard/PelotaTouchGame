@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pelota touch!</string>
+
+    <string name="dificultad">Por favor elija un nivel:</string>
+    <string name="facil">Fácil</string>
+    <string name="medio">Normal</string>
+    <string name="dificil">Dificil</string>
+
+    <string name="ayuda">Ayuda</string>
+
+    <string name="texto_ayuda">
+
+        El objetivo del juego es evitar que la pelota caiga al suelo, tocando con el dedo la pelota. \n\n
+
+        Para empujar la pelota en una dirección concreta, pulsaremos en la pantallaen la dirección contraria
+        \n\n\nÁnimo!!!
+        \n\n\nGermán Jongewaard
+
+    </string>
+
+    <string name="volver">Volver</string>
+
+</resources>

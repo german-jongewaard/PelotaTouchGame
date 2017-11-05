@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. "Theme.AppCompat.Light.DarkActionBar"  -->
+        <!--  <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+         <item name="colorAccent">@color/colorAccent</item> -->
+     </style>
+
+    <style name="pantalla">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/paisaje_1</item>
+
+
+    </style>
+
+    <style name="ajuste_general">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/margen</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">#ffffff</item>
+
+    </style>
+
+    <style name="texto_botones" parent="@style/ajuste_general">
+
+        <item name="android:background">@drawable/fondo</item>
+        <item name="android:textSize">@dimen/texto</item>
+        <item name="android:text">@string/dificultad</item>
+
+    </style>
+
+    <style name="botones" parent="@style/ajuste_general">
+
+        <item name="android:minHeight">@dimen/alto_min_boton</item>
+        <item name="android:textSize">@dimen/texto_boton</item>
+        <item name="android:background">@drawable/boton</item>
+
+    </style>
+
+    <style name="boton_Dificultad" parent="@style/botones">
+
+        <item name="android:onClick">dificultad</item>
+    </style>
+
+
+
+    <style name="boton_Ayuda" parent="@style/botones">
+        
+        <item name="android:text">@string/ayuda</item>
+        
+        <item name="android:onClick">ayuda</item>
+        
+    </style>
+
+</resources>

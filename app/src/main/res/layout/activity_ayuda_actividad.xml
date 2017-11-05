@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/activity_ayuda_actividad"
+
+    tools:context="com.okakiben.hilos_persistencia_sonido.AyudaActividad"
+
+    style="@style/pantalla">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margen"
+        android:layout_marginLeft="@dimen/margen"
+        android:layout_marginRight="@dimen/margen"
+        android:layout_marginBottom="@dimen/mas_margen_para_boton"
+
+        android:background="@drawable/fondo">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding"
+            android:text="@string/texto_ayuda"
+            android:textSize="@dimen/texto"
+            android:textColor="#ffffff" />
+
+    </ScrollView>
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/volver"
+        style="@style/botones"
+        android:onClick="volver"/>
+
+</RelativeLayout>
